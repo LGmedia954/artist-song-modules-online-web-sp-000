@@ -10,3 +10,7 @@ module Memorable
     all.count
   end
 end
+
+ def initialize
+    self.class.all << self
+ end
